@@ -74,7 +74,7 @@ cp -r ./opencltuning /root/.katago/
 #download the weights
 if [ "$BLOCK" == "6" ]
 then
-  wget --quiet https://katagoarchive.org/g170/neuralnets/g170-b6c96-s175395328-d26788732.bin.gz -O "./data/weights/"$BLOCK"b.bin.gz"
+  wget --quiet https://media.katagotraining.org/uploaded/networks/models/kata1/kata1-b6c96-s29422336-d4533650.txt.gz -O "./data/weights/"$BLOCK"b.bin.gz"
 else
   wget --quiet https://github.com/kinfkong/ikatago-for-colab/releases/download/$RELEASE_VERSION/kata1_weights.py -O kata1_weights.py
   python kata1_weights.py $WEIGHT_FILE
