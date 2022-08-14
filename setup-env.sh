@@ -92,6 +92,6 @@ then
 fi
 chmod +x ./change-config.sh
 
-./change-config.sh $BLOCK"b" "./data/weights/"$BLOCK"b.bin.gz"
+./change-config.sh $BLOCK"b" "./data/weights/"$BLOCK"b.txt.gz"
 
 chmod +x ./ikatago-server
